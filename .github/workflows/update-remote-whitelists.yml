@@ -35,7 +35,7 @@ jobs:
               if [[ -z "$line" ]] || [[ "$line" =~ ^# ]]; then
                 echo "$line" >> "$output_file"
               else
-                if [[ ! "$line" =~ ^@@\|\| ]]; then
+                if [[ ! "$line" =~ ^@@ ]]; then
                   line="@@||$line"
                 fi
                 if [[ ! "$line" =~ \^\$important ]]; then
