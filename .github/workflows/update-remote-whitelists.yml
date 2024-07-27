@@ -35,8 +35,8 @@ jobs:
               if [[ -z "$line" ]] || [[ "$line" =~ ^# ]]; then
                 echo "$line" >> "$output_file"
               else
-                # Ensure the line starts with @@|| if it doesn't start with @@
-                if [[ ! "$line" =~ ^@@ ]]; then
+                # Ensure the line starts with @@|| if it doesn't start with @
+                if [[ ! "$line" =~ ^@ ]]; then
                   line="@@||$line"
                 fi
                 # Ensure the line ends with ^$important
