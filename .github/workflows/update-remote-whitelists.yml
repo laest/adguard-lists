@@ -17,7 +17,7 @@ jobs:
       run: |
         mkdir -p whitelists
         while IFS= read -r url || [[ -n "$url" ]]; do
-          if [[ -n "$url" && ! "$url" =~ ^\# ]]; then
+          if [[ -n "$url" && ! "$url" =~ ^# ]]; then
             echo "Processing $url"
             filename=$(basename "$url")
             curl -s -o "downloaded_$filename" "$url"
