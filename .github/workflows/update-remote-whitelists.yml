@@ -36,7 +36,7 @@ jobs:
                 echo "$line" >> "$output_file"
               else
                 # Ensure the line starts with @@|| if it doesn't start with @
-                if [[ ! "$line" =~ ^@* ]]; then
+                if [[ ! "$line" =~ ^\@* ]]; then
                   line="@@||$line"
                 fi
                 # Ensure the line ends with ^$important
