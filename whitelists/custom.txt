@@ -2,60 +2,60 @@
 # Joyn #
 # ↓↓↓↓ #
 
-@@||script.ioam.de^
-@@||joyn.de^
-@@||usercentrics.eu^
+@@||script.ioam.de^$important$important
+@@||joyn.de^$important
+@@||usercentrics.eu^$important
 
 #######
 # Git #
 # ↓↓↓ #
 
-@@||github.com^
-@@||github.io^
-@@||raw.githubusercontent.com^
+@@||github.com^$important
+@@||github.io^$important
+@@||raw.githubusercontent.com^$important
 
 ##################
 # Spiegel Online #
 # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ #
 
-@@||adition.com^
-@@||adscale.de^
-@@||imagesrv.adition.com^
-@@||spiegel.de^
+@@||adition.com^$important
+@@||adscale.de^$important
+@@||imagesrv.adition.com^$important
+@@||spiegel.de^$important
 
-@@||ad.doubleclick.net^
-@@||cdn3.optimizely.com^
-@@||c.spiegel.de^
-@@||count.spiegel.de^
-@@||pubads.g.doubleclick.net^
-@@||partnerad.l.doubleclick.net^
-@@||static.parsely.com^
-@@||www.google-analytics.com^
-@@||s290.mxcdn.net^
-@@||www-google-analytics.l.google.com^
-@@||dyn.emetriq.de^
-@@||static.criteo.net^
-@@||securepubads.g.doubleclick.net^
-@@||dart.l.doubleclick.net^
-@@||script.ioam.de^
-@@||device-metrics-us.amazon.com^
+@@||ad.doubleclick.net^$important
+@@||cdn3.optimizely.com^$important
+@@||c.spiegel.de^$important
+@@||count.spiegel.de^$important
+@@||pubads.g.doubleclick.net^$important
+@@||partnerad.l.doubleclick.net^$important
+@@||static.parsely.com^$important
+@@||www.google-analytics.com^$important
+@@||s290.mxcdn.net^$important
+@@||www-google-analytics.l.google.com^$important
+@@||dyn.emetriq.de^$important
+@@||static.criteo.net^$important
+@@||securepubads.g.doubleclick.net^$important
+@@||dart.l.doubleclick.net^$important
+@@||script.ioam.de^$important
+@@||device-metrics-us.amazon.com^$important
 
 ###########
 # Bild.de #
 # ↓↓↓↓↓↓↓ #
 
-@@||connect.facebook.net^
-@@||rem-track.bild.de^
-@@||www.asadcdn.com^
-@@||bildstatic.de^
-@@||de.ioam.de^
-@@||json.bild.de^
-@@||ioam.de^
-@@||tags.tiqcdn.com^
-@@||tagger.opecloud.com^
-@@||cdn1.smartadserver.com^
-@@||ec-ns.sascdn.com^
-@@||asadcdn.com^
-@@||acdn.adnxs.com^
-@@||akamaihd.net^
-@@||cdn.taboola.com^
+@@||connect.facebook.net^$important
+@@||rem-track.bild.de^$important
+@@||www.asadcdn.com^$important
+@@||bildstatic.de^$important
+@@||de.ioam.de^$important
+@@||json.bild.de^$important
+@@||ioam.de^$important
+@@||tags.tiqcdn.com^$important
+@@||tagger.opecloud.com^$important
+@@||cdn1.smartadserver.com^$important
+@@||ec-ns.sascdn.com^$important
+@@||asadcdn.com^$important
+@@||acdn.adnxs.com^$important
+@@||akamaihd.net^$important
+@@||cdn.taboola.com^$important
