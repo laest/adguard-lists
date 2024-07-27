@@ -59,3 +59,9 @@
 @@||acdn.adnxs.com^$important
 @@||akamaihd.net^$important
 @@||cdn.taboola.com^$important
+
+############
+# GamePass #
+# ↓↓↓↓↓↓↓↓ #
+
+@@||catalog.gamepass.com^$important
