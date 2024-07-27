@@ -1,0 +1,41 @@
+name: Process and Update remote lists
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Läuft täglich um Mitternacht
+  workflow_dispatch:  # Erlaubt manuelle Ausführung
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Download file
+      run: |
+        curl -o downloaded_file.txt https://raw.githubusercontent.com/hkamran80/blocklists/main/smart-tv
+
+    - name: Process file
+      run: |
+        mkdir -p blocklists
+        touch blocklists/smart-tv.txt
+        while IFS= read -r line; do
+          if [[ -z "$line" ]] || [[ "$line" =~ ^# ]]; then
+            echo "$line" >> blocklists/smart-tv.txt
+          else
+            if [[ ! "$line" =~ ^\|\| ]]; then
+              line="||$line"
+            fi
+            if [[ ! "$line" =~ \^$ ]]; then
+              line="${line}^"
+            fi
+            echo "$line" >> blocklists/smart-tv.txt
+          fi
+        done < downloaded_file.txt
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add blocklists/smart-tv.txt
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update smart-tv blocklist" && git push)
