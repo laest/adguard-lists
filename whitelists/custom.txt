@@ -1,0 +1,61 @@
+########
+# Joyn #
+# ↓↓↓↓ #
+
+@@||script.ioam.de^
+@@||joyn.de^
+@@||usercentrics.eu^
+
+#######
+# Git #
+# ↓↓↓ #
+
+@@||github.com^
+@@||github.io^
+@@||raw.githubusercontent.com^
+
+##################
+# Spiegel Online #
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ #
+
+@@||adition.com^
+@@||adscale.de^
+@@||imagesrv.adition.com^
+@@||spiegel.de^
+
+@@||ad.doubleclick.net^
+@@||cdn3.optimizely.com^
+@@||c.spiegel.de^
+@@||count.spiegel.de^
+@@||pubads.g.doubleclick.net^
+@@||partnerad.l.doubleclick.net^
+@@||static.parsely.com^
+@@||www.google-analytics.com^
+@@||s290.mxcdn.net^
+@@||www-google-analytics.l.google.com^
+@@||dyn.emetriq.de^
+@@||static.criteo.net^
+@@||securepubads.g.doubleclick.net^
+@@||dart.l.doubleclick.net^
+@@||script.ioam.de^
+@@||device-metrics-us.amazon.com^
+
+###########
+# Bild.de #
+# ↓↓↓↓↓↓↓ #
+
+@@||connect.facebook.net^
+@@||rem-track.bild.de^
+@@||www.asadcdn.com^
+@@||bildstatic.de^
+@@||de.ioam.de^
+@@||json.bild.de^
+@@||ioam.de^
+@@||tags.tiqcdn.com^
+@@||tagger.opecloud.com^
+@@||cdn1.smartadserver.com^
+@@||ec-ns.sascdn.com^
+@@||asadcdn.com^
+@@||acdn.adnxs.com^
+@@||akamaihd.net^
+@@||cdn.taboola.com^

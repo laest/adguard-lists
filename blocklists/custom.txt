@@ -1,0 +1,11 @@
+########
+# Joyn #
+# ↓↓↓↓ #
+
+||cws.conviva.com
+||prosieben01.webtrekk.net 
+||seccdn-gl.imrworldwide.com
+||ad.71i.de 
+||adserver.71i.de
+||probe.yieldlab.net
+||joyn-vod-prd.akamaized.net
