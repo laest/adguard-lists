@@ -2,7 +2,7 @@ name: Update remote whitelists
 
 on:
   schedule:
-    - cron: '0 3 * * 0' # Execute every sunday 3 a.m.
+    - cron: '0 3 * * 0' # Execute every Sunday at 3 a.m.
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
             filename=$(basename "$url")
             curl -s -o "downloaded_$filename" "$url"
             
-            # Bestimme den Ausgabedateinamen
+            # Determine the output filename
             if [[ "$filename" != *.txt ]]; then
               output_filename="${filename}.txt"
             else
@@ -35,8 +35,12 @@ jobs:
               if [[ -z "$line" ]] || [[ "$line" =~ ^# ]]; then
                 echo "$line" >> "$output_file"
               else
-                [[ "$line" =~ ^@@\|\| ]] || line="@@||$line"
-                [[ "$line" =~ \^\$important$ ]] || line="${line}^$important"
+                if [[ ! "$line" =~ ^@@\|\| ]]; then
+                  line="@@||$line"
+                fi
+                if [[ ! "$line" =~ \^\$important ]]; then
+                  line="${line}^$important"
+                fi
                 echo "$line" >> "$output_file"
               fi
             done < "downloaded_$filename"
