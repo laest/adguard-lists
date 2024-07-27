@@ -28,7 +28,7 @@ jobs:
             else
               output_filename="$filename"
             fi
-            output_file="blocklists/${output_filename%.txt}_processed.txt"
+            output_file="blocklists/${output_filename%.txt}.txt"
             
             touch "$output_file"
             while IFS= read -r line; do
