@@ -1,2 +1,0 @@
-# Smart TV Blocklist
-https://raw.githubusercontent.com/hkamran80/blocklists/main/smart-tv

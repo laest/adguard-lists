@@ -1,0 +1,6 @@
+# List of remote blocklists which will automatically converted to
+# AdGuard syntax and updated once a week through github action.
+# Converted lists will be safed in blocklists directory
+
+# Smart TV Blocklist
+https://raw.githubusercontent.com/hkamran80/blocklists/main/smart-tv

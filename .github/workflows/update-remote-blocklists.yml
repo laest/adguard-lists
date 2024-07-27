@@ -1,17 +1,17 @@
-name: Update Blocklists
+name: Update remote blocklists
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Läuft täglich um Mitternacht
-  workflow_dispatch:  # Erlaubt manuelle Ausführung
+    - cron: '0 3 * * 0' # Execute every sunday 3 a.m.
+  workflow_dispatch:
 
 jobs:
-  update-blocklists:
+  update-remote-blocklists:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Process URLs
       run: |
@@ -46,7 +46,7 @@ jobs:
             done < "downloaded_$filename"
             rm "downloaded_$filename"
           fi
-        done < remote-source-blocklists.txt
+        done < remote-sources/blocklists.txt
 
     - name: Commit and push if changed
       run: |
