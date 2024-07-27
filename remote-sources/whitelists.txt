@@ -1,0 +1,6 @@
+# List of remote whitelists which will automatically converted to
+# AdGuard syntax and updated once a week through github action.
+# Converted lists will be safed in whitelists directory
+
+# Microsoft services whitelist
+https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/Modules/Organizations/microsoft_whitelist.txt
