@@ -1,8 +1,8 @@
 name: Update remote whitelists
 
 on:
-  schedule:
-    - cron: '0 3 * * 0' # Execute every Sunday at 3 a.m.
+  # schedule:
+  #  - cron: '0 3 * * 0' # Execute every Sunday at 3 a.m.
   workflow_dispatch:
 
 jobs:
