@@ -33,15 +33,17 @@ jobs:
             touch "$output_file"
             while IFS= read -r line; do
               if [[ -z "$line" ]] || [[ "$line" =~ ^# ]]; then
+                # Directly copy empty lines and comments
                 echo "$line" >> "$output_file"
               else
-                # Ensure the line starts with @@|| if it doesn't start with @
-                if [[ ! "$line" =~ ^\@* ]]; then
-                  line="@@||$line"
+                # Process non-empty, non-comment lines
+                if [[ ! "$line" =~ ^@@ ]]; then
+                  # If the line doesn't start with @@, add @@||
+                  line="@@||${line#"@@||"}"  # Remove @@|| if it's there, then add it
                 fi
                 # Ensure the line ends with ^$important
-                if [[ ! "$line" =~ \^\$important ]]; then
-                  line="${line}^$important"
+                if [[ ! "$line" =~ \^\$important$ ]]; then
+                  line="${line%"^$important"}^$important"  # Remove ^$important if it's there, then add it
                 fi
                 echo "$line" >> "$output_file"
               fi
