@@ -39,11 +39,11 @@ jobs:
                 # Process non-empty, non-comment lines
                 if [[ ! "$line" =~ ^@@ ]]; then
                   # If the line doesn't start with @@, add @@||
-                  line="@@||${line#"@@||"}"  # Remove @@|| if it's there, then add it
+                  line="@@||${line}"
                 fi
                 # Ensure the line ends with ^$important
                 if [[ ! "$line" =~ \^\$important$ ]]; then
-                  line="${line%"^$important"}^$important"  # Remove ^$important if it's there, then add it
+                  line="${line}^$important"
                 fi
                 echo "$line" >> "$output_file"
               fi
