@@ -65,3 +65,9 @@
 # ↓↓↓↓↓↓↓↓ #
 
 @@||catalog.gamepass.com^$important
+
+#######
+# CoD #
+# ↓↓↓ #
+
+@@||cod-assets.cdn.callofduty.com
