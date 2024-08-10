@@ -77,3 +77,9 @@
 # ↓↓↓↓↓↓↓↓↓ #
 
 @@||walz-live.cdn.aboutyou.cloud
+
+###########
+# Spotify #
+# ↓↓↓↓↓↓↓ #
+
+image-cdn-ak.spotifycdn.com
