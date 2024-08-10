@@ -71,3 +71,9 @@
 # ↓↓↓ #
 
 @@||cod-assets.cdn.callofduty.com
+
+#############
+# Baby Walz #
+# ↓↓↓↓↓↓↓↓↓ #
+
+@@||walz-live.cdn.aboutyou.cloud
