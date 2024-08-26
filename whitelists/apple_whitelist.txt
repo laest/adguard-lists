@@ -1,0 +1,13 @@
+@@||amp-api-edge.apps.apple.com^$important
+@@||tr.iadsdk.apple.com^$important
+@@||api.iterable.com^$important
+@@||gspe79-ssl.ls.apple.com^$important
+@@||se2.itunes.apple.com^$important
+@@||iphone-ld.apple.com^$important
+@@||amp-api-search-edge.apps.apple.com^$important
+@@||init-p01md.apple.com^$important
+@@||amp-api.media.apple.com^$important
+@@||amp-api.apps.apple.com^$important
+@@||ls.apple.com^$important
+@@||podcast.apple.com^$important
+@@||push-apple.com.akadns.net^$important

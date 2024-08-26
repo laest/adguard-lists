@@ -65,3 +65,9 @@
 # ↓↓↓↓↓↓↓↓ #
 
 @@||catalog.gamepass.com^$important
+
+#############
+# EA Client #
+# ↓↓↓↓↓↓↓↓↓ #
+
+@@||sdk.split.io^$important
