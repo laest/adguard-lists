@@ -71,3 +71,21 @@
 # ↓↓↓↓↓↓↓↓↓ #
 
 @@||sdk.split.io^$important
+
+#######
+# CoD #
+# ↓↓↓ #
+
+@@||cod-assets.cdn.callofduty.com
+
+#############
+# Baby Walz #
+# ↓↓↓↓↓↓↓↓↓ #
+
+@@||walz-live.cdn.aboutyou.cloud
+
+###########
+# Spotify #
+# ↓↓↓↓↓↓↓ #
+
+image-cdn-ak.spotifycdn.com
