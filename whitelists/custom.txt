@@ -71,27 +71,31 @@
 # ↓↓↓↓↓↓↓↓↓ #
 
 @@||sdk.split.io^$important
+@@||pin-river.data.ea.com^$important
+@@||checkout.ea.com^$important
+@@||rtm.tnt-ea.com^$important
+@@||beacons4.gvt2.com^$important
 
 #######
 # CoD #
 # ↓↓↓ #
 
-@@||cod-assets.cdn.callofduty.com
+@@||cod-assets.cdn.callofduty.com^$important
 
 #############
 # Baby Walz #
 # ↓↓↓↓↓↓↓↓↓ #
 
-@@||walz-live.cdn.aboutyou.cloud
+@@||walz-live.cdn.aboutyou.cloud^$important
 
 ###########
 # Spotify #
 # ↓↓↓↓↓↓↓ #
 
-@@||image-cdn-ak.spotifycdn.com
+@@||image-cdn-ak.spotifycdn.com^$important
 
 #########
 # Alexa #
 # ↓↓↓↓↓ #
 
-@@||api.eu.amazonalexa.com
+@@||api.eu.amazonalexa.com^$important
