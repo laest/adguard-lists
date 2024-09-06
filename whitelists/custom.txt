@@ -99,3 +99,12 @@
 # ↓↓↓↓↓ #
 
 @@||api.eu.amazonalexa.com^$important
+@@||dcape-na.amazon.com^$important
+
+#############
+# Maxi Cosi #
+# ↓↓↓↓↓↓↓↓↓ #
+
+@@||www.maxi-cosi.de^$important
+@@||images.maxi-cosi.co.uk^$important
+@@||images.maxi-cosi.de^$important
