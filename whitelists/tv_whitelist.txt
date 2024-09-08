@@ -34,3 +34,12 @@
 
 @@||widevine.com^$important
 @@||telekom.drmkeyserver.com^$important
+
+###################
+# Samsung / Tizen #
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ #
+
+@@||cdn.samsungcloudsolution.com
+@@||auth.samsungosp.com
+@@||osb.samsungqbe.com
+@@||time.samsungcloudsolution.com
