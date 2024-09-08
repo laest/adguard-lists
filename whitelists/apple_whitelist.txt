@@ -1,5 +1,5 @@
-@@||*.apps.apple.com^$important
-@@||*.ls.apple.com^$important
+@@||*apps.apple.com^$important
+@@||*ls.apple.com^$important
 @@||*.itunes.apple.com^$important
 @@||iphone-ld.apple.com^$important
 @@||init-p01md.apple.com^$important
