@@ -1,0 +1,36 @@
+###########
+# Telekom #
+# ↓↓↓↓↓↓↓ #
+
+@@||magentatv.de^$important
+@@||cloud.telekom-dienste.de^$important
+@@||is.telekom-dienste.de^$important
+@@||tvapi.telekom-dienste.de^$important
+@@||prod.teleweb.de^$important
+@@||ott.video.t-online.de^$important
+@@||magentatv.de^$important
+
+#####################
+# CDN und Streaming #
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ #
+
+@@||akamaized.net^$important
+@@||cdn.telekom-dienste.de^$important
+@@||videoload.de^$important
+@@||glomex.com^$important
+
+#######################
+# Google / Android TV #
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ #
+
+@@||googleapis.com^$important
+@@||gvt2.com^$important
+@@||android.com^$important
+@@||ggpht.com^$important
+
+########################
+# DRM und Lizenzierung #
+# ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ #
+
+@@||widevine.com^$important
+@@||telekom.drmkeyserver.com^$important
