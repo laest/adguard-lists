@@ -1,6 +1,6 @@
 @@||*amp-api-search-edge.apps.apple.com^$important
 @@||*amp-api-edge.apps.apple.com^$important
-@@||*ls.apple.com^$important
+@@||*.ls.apple.com^$important
 @@||*.itunes.apple.com^$important
 @@||*iphone-ld.apple.com^$important
 @@||*init-p01md.apple.com^$important
