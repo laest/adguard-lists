@@ -9,3 +9,13 @@
 ||adserver.71i.de
 ||probe.yieldlab.net
 ||joyn-vod-prd.akamaized.net
+
+############
+# Autodesk #
+# ↓↓↓↓↓↓↓↓ #
+
+||autodesk.com
+||www.autodesk.com
+||jawa.autodesk.com
+||auls.autodesk.com
+||cdn.autodesk.com
